@@ -13,14 +13,14 @@
 #
 # Configure Using Gemfile
 # gem 'pg'
-#
+# 
 development:
   adapter: postgresql
   encoding: unicode
-  database: kbk_development
+  database: db11369
   pool: 5
-  username: postgres
-  password:
+  username: app
+  password: UoVOENkMMzk5wqkyXpui
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -54,7 +54,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: kbk_production
+  database: db11369
   pool: 5
-  username: postgres
-  password:
+  username: app
+  password: UoVOENkMMzk5wqkyXpui
