@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Kbk::Application.load_tasks
+centrsogl::Application.load_tasks

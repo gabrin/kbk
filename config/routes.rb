@@ -1,4 +1,4 @@
-Kbk::Application.routes.draw do
+centrsogl::Application.routes.draw do
   devise_for :users
 
   root to: 'investigations#index'
