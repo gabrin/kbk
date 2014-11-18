@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-centrsogl::Application.load_tasks
+Centrsogl::Application.load_tasks
