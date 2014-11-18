@@ -84,5 +84,5 @@ Centrsogl::Application.configure do
   #mailer_config = Settings.smtp_settings.to_hash
 
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = mailer_config
+  #config.action_mailer.smtp_settings = mailer_config
 end
