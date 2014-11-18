@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-centrsogl::Application.config.secret_key_base = Settings.secret_key_base
+Centrsogl::Application.config.secret_key_base = Settings.secret_key_base

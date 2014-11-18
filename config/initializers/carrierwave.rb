@@ -1,4 +1,4 @@
-#CarrierWave.configure do |config|
+CarrierWave.configure do |config|
   #bucket = Settings.s3.bucket
   #config.fog_credentials = {
     #:provider               => 'AWS',
