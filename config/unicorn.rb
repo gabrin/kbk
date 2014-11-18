@@ -1,4 +1,4 @@
-application = 'centrsogl'
+application = 'Centrsogl'
 environment = ENV['RACK_ENV'] || ENV['RAILS_ENV'] || 'production'
 if environment != 'production'
   worker_processes 2
