@@ -1,14 +1,14 @@
-CarrierWave.configure do |config|
-  bucket = Settings.s3.bucket
-  config.fog_credentials = {
-    :provider               => 'AWS',
-    :aws_access_key_id      => Settings.s3.access_key_id,
-    :aws_secret_access_key  => Settings.s3.secret_access_key,
-    :region                 => 'eu-west-1',
-    :host                   => "#{bucket}.s3.amazonaws.com",
-    :endpoint               => 'http://s3-eu-west-1.amazonaws.com'
-  }
-  config.fog_directory = bucket
+#CarrierWave.configure do |config|
+  #bucket = Settings.s3.bucket
+  #config.fog_credentials = {
+    #:provider               => 'AWS',
+    #:aws_access_key_id      => Settings.s3.access_key_id,
+    #:aws_secret_access_key  => Settings.s3.secret_access_key,
+    #:region                 => 'eu-west-1',
+    #:host                   => "#{bucket}.s3.amazonaws.com",
+    #:endpoint               => 'http://s3-eu-west-1.amazonaws.com'
+  #}
+ #config.fog_directory = bucket
 
   # Heroku compatibility
   # See https://github.com/carrierwaveuploader/carrierwave/wiki/How-to%3A-Make-Carrierwave-work-on-Heroku
